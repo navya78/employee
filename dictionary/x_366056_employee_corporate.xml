@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="employee" max_length="40" name="x_366056_employee_corporate" type="collection">
+        <element label="Phone number" mandatory="true" max_length="40" name="u_integer_7" type="integer"/>
+        <element label="Salary" mandatory="true" max_length="40" name="u_integer_8" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="First name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last name" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email id" mandatory="true" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="40" name="u_string_5" type="string"/>
+    </element>
+</database>
